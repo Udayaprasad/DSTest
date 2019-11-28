@@ -20,6 +20,7 @@ The above REST endpoint returns all quotes by a character in a movie
 
 Response format:
 --------
+```
 {
   "character_name": "<<CHARACTER_NAME>>"
   ,"movie_name" : "<<MOVIE_NAME>>"
@@ -29,25 +30,30 @@ Response format:
     ,"quote 3"
   ]
 }
+```
 
 You are free to use all the API REST endpoints provided by The Lord of the Rings API
 
 
 Example
 ------
+```
 Character name: Gandalf
 character Id: 5cd99d4bde30eff6ebccfea0
 
 Movie name: The Two Towers
 Movie Id: 5cd95395de30eff6ebccde5b
-
+```
 
 The following REST endpoint returns all quotes by Gandalf in the movie  The Two Towers
 
-quotes/movie/5cd95395de30eff6ebccde5b/character/5cd99d4bde30eff6ebccfea0
+```
+http://127.0.0.1:5000/quotes/movie/5cd95395de30eff6ebccde5b/character/5cd99d4bde30eff6ebccfea0
+```
 
 
 Response:
+--------
 
 ```
 {
