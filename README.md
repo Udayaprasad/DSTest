@@ -49,6 +49,7 @@ quotes/movie/5cd95395de30eff6ebccde5b/character/5cd99d4bde30eff6ebccfea0
 
 Response:
 
+```
 {
   "character_name": "Gandalf"
   ,"movie_name" : "The Two Towers"
@@ -103,5 +104,7 @@ Response:
       "So stop your fretting, Master Dwarf.Merry and Pippin are quite safe.In fact, they are far saferthan you are about to be. "
   ]
 }
+
+```
 
 
